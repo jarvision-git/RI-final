@@ -133,7 +133,6 @@ Near-perfect classification was observed across almost all human-readable format
 Focused on Microsoft Office and Apple Keynote formats ('doc', 'docx', 'key', 'ppt', 'pptx', 'xls', 'xlsx'), the model achieved:
 
 *   **Validation/Test Accuracy:** 87.02%
-*   **Loss:** \[Specify Loss if you have it, e.g., 0.35]
 *   **Weighted-Averaged F1-Score:** 0.869
 
 Strong performance was observed for Word and Excel formats. PowerPoint formats showed moderate performance, with 'ppt' often misclassified as 'pptx'. Keynote ('key') was the most challenging format, frequently misclassified as PowerPoint.
@@ -143,7 +142,6 @@ Strong performance was observed for Word and Excel formats. PowerPoint formats s
 Trained on 'pcap', 'ttf', 'dwg', and 'sqlite' formats, the model demonstrated exceptionally high performance:
 
 *   **Validation/Test Accuracy:** 99.66%
-*   **Loss:** \[Specify Loss if available, e.g., < 0.01]
 *   **Macro-Averaged F1-Score:** 0.997
 *   **Weighted-Averaged F1-Score:** 0.997
 
